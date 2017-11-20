@@ -1,0 +1,376 @@
+<!doctype html5>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>HTML5</title>
+  <!-- Compiled and minified CSS -->
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Compiled and minified JavaScript -->
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+
+ <div id="myModal" class="modal">
+    <div class="modal-content">
+      <h4 id="modalheading">Your New Best Friend!</h4>
+      <p id="modalbody"></p>
+    </div>
+    <div class="modal-footer">
+      <a href="/survey" class="modal-action modal-close waves-effect waves-green btn-flat">OK</a>
+    </div>
+  </div>
+
+
+	    <div class="main container">
+      <div class="col s12 center-align">
+        <h5>Your Profile</h5>
+      </div>
+      <div class="row">
+        <div class="row">
+          <div class="col s12">
+            <div class="input-field col s6">
+              <input id="first_name" type="text">
+            <label for="first_name">First Name</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="last_name" type="text">
+              <label for="last_name">Last Name</label>
+            </div>
+            <div class="col s12">
+          </div>
+            <div class="input-field col s12">
+              <input id="profpic" type="text">
+            <label for="profpic">Profile Image URL</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="divider"></div>
+      <div class="heading col s12 center-align">
+        <h5>Questions</h5>
+      </div>
+      
+      <div class="row">
+        <h6> <strong>Question 1: </strong> You like to be engaged in an active and fast-paced job</h6>
+      </div>
+      
+      <div class="row question">
+        <div class="col s3 center-align rangedes">
+        <p>Strongly Disagree</p>
+      </div>
+       <div class="col s6">
+        <p class="range-field center-align">
+      <input type="range" id="one" min="1" max="5" />
+      </p>
+      </div>
+      <div class="col s3 center-align rangedes">
+        <p>Strongly Agree</p>
+      </div>
+      </div>
+      
+      <div class="row">
+      <h6><strong>Question 2: </strong> You are usually the first to react to a sudden event: the telephone ringing or unexpected question</h6>
+      </div>
+      
+       <div class="row question">
+        <div class="col s3 center-align rangedes">
+        <p>Strongly Disagree</p>
+      </div>
+       <div class="col s6">
+        <p class="range-field center-align">
+      <input type="range" id="two" min="1" max="5" />
+      </p>
+      </div>
+      <div class="col s3 center-align rangedes">
+        <p>Strongly Agree</p>
+      </div>
+      </div>
+
+      <div class="row">
+        <h6><strong>Question 3: </strong> 
+        Strict observance of the established rules is likely to prevent attaining a good outcome
+      </h6>
+      </div>
+      
+
+      <div class="row question">
+        <div class="col s3 center-align rangedes">
+        <p>Strongly Disagree</p>
+      </div>
+       <div class="col s6">
+        <p class="range-field center-align">
+      <input type="range" id="three" min="1" max="5" />
+      </p>
+      </div>
+      <div class="col s3 center-align rangedes">
+        <p>Strongly Agree</p>
+      </div>
+      </div>
+      
+      <div class="row">
+        <h6><strong>Question 4: </strong> You often think about humankind and its destiny</h6>
+      </div>
+      
+      <div class="row question">
+        <div class="col s3 center-align rangedes">
+        <p>Strongly Disagree</p>
+      </div>
+       <div class="col s6">
+        <p class="range-field center-align">
+      <input type="range" id="four" min="1" max="5" />
+      </p>
+      </div>
+      <div class="col s3 center-align rangedes">
+        <p>Strongly Agree</p>
+      </div>
+      </div>
+      
+      <div class="row">
+        <h6><strong>Question 5: </strong> You often ponder the root cause of phenomena and things</h6>
+      </div>
+      
+      <div class="row question">
+        <div class="col s3 center-align rangedes">
+        <p>Strongly Disagree</p>
+      </div>
+       <div class="col s6">
+        <p class="range-field center-align">
+      <input type="range" id="five" min="1" max="5" />
+      </p>
+      </div>
+      <div class="col s3 center-align rangedes">
+        <p>Strongly Agree</p>
+      </div>
+      </div>
+
+      <div class="row">
+        <h6><strong>Question 6: </strong> You usually plan your actions in advance</h6>
+      </div>
+      
+      <div class="row question">
+        <div class="col s3 center-align rangedes">
+        <p>Strongly Disagree</p>
+      </div>
+       <div class="col s6">
+        <p class="range-field center-align">
+      <input type="range" id="six" min="1" max="5" />
+      </p>
+      </div>
+      <div class="col s3 center-align rangedes">
+        <p>Strongly Agree</p>
+      </div>
+      </div>
+
+      <div class="row">
+        <h6><strong>Question 7: </strong> You know how to put every minute of your time to good purpose</h6>
+      </div>
+      
+      <div class="row question">
+        <div class="col s3 center-align rangedes">
+        <p>Strongly Disagree</p>
+      </div>
+
+       <div class="col s6">
+        <p class="range-field center-align">
+      <input type="range" id="seven" min="1" max="5" />
+      </p>
+      </div>
+      <div class="col s3 center-align rangedes">
+        <p>Strongly Agree</p>
+      </div>
+      </div>
+
+      <div class="row">
+        <h6><strong>Question 8: </strong> After prolonged socializing you feel you need to get away and be alone</h6>
+      </div>
+
+      <div class="row question">
+        <div class="col s3 center-align rangedes">
+        <p>Strongly Disagree</p>
+      </div>
+       <div class="col s6">
+        <p class="range-field center-align">
+      <input type="range" id="eight" min="1" max="5" />
+      </p>
+      </div>
+      <div class="col s3 center-align rangedes">
+        <p>Strongly Agree</p>
+      </div>
+      </div>
+    
+      <div class="row">
+        <h6> <strong>Question 9: </strong> For you, it is easier to gain knowledge through hands-on experience than from books or manuals</h6>
+      </div>
+      
+      <div class="row question">
+        <div class="col s3 center-align rangedes">
+        <p>Strongly Disagree</p>
+      </div>
+       <div class="col s6">
+        <p class="range-field center-align">
+      <input type="range" id="nine" min="1" max="5" />
+      </p>
+      </div>
+      <div class="col s3 center-align rangedes">
+        <p>Strongly Agree</p>
+      </div>
+      </div>
+
+      <div class="row">
+        <h6><strong>Question 10: </strong> As a rule, current preoccupations worry you more than your future plans</h6>
+      </div>
+      
+
+      <div class="row question">
+        <div class="col s3 center-align rangedes">
+        <p>Strongly Disagree</p>
+      </div>
+       <div class="col s6">
+        <p class="range-field center-align">
+      <input type="range" id="ten" min="1" max="5" />
+      </p>
+      </div>
+      <div class="col s3 center-align rangedes">
+        <p>Strongly Agree</p>
+      </div>
+      </div>
+
+
+      <div class="divider"></div>
+      
+      <div class="container submit center-align"">
+        <button id="submitBtn" class="btn waves-effect waves-light"  type="submit" name="action">Submit
+          <i class="material-icons right">send</i>
+        </button>
+      </div>
+
+      <div class="container submit center-align"">
+        <a href="/home" action="GET" role="button"><button class="btn waves-effect waves-light">Go to Homepage
+        </button></a>
+      </div>
+      
+
+
+      
+      </div>
+
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script> -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  
+
+  <style>
+
+  .submit{
+    margin: 10px auto 20px auto;
+  }
+
+  .rangedes{
+    margin: 5px 0 5px 0;
+  }
+  .question{
+    border: 0.5px solid black;
+  }
+
+  .heading{
+    margin-bottom: 30px;
+  }
+    h6 {
+      font-size: 1.2em;
+    }
+    .divider{
+      margin-bottom: 30px;
+    }
+    .main{
+      padding: 30px 0 0 0;
+    }
+
+    .input-field input[type=text]:focus + label {
+     color: black;
+   }
+
+  </style>
+
+  <script>
+    
+    $(document).ready(function() {
+
+        $('.modal').modal();
+
+        $(document).on('click', "#submitBtn", function(){
+            let first = $("#first_name").val().trim();
+            let last = $("#last_name").val().trim();
+            let profpic = $("#profpic").val().trim();
+            let one = $("#one").val().trim();
+            let two = $("#two").val().trim();
+            let three = $("#three").val().trim();
+            let four = $("#four").val().trim();
+            let five = $("#five").val().trim();
+            let six = $("#six").val().trim();
+            let seven = $("#seven").val().trim();
+            let eight = $("#eight").val().trim();
+            let nine  = $("#nine").val().trim();
+            let ten = $("#ten").val().trim();
+
+            let myself = {
+              first: first,
+              last: last,
+              pic: profpic,
+              score: [one, two, three, four, five, six, seven, eight, nine, ten]
+            }
+
+            //console.log(myself);
+            if (first != "" && last != "" && profpic != ""){
+              $.post("/api/friends", myself).done((data) => {
+                console.log(data);
+                  if (data.length > 1){
+                    let friends = data;
+                    friends.pop();
+                    let bestFriend;
+                    let minVal = 50;
+                    console.log(friends);
+                    friends.forEach(v => {
+                      let val = 0;
+                      for (let i = 0; i <= 9; i++){
+                        val += Math.abs(parseInt(v["score[]"][i]) - parseInt(myself.score[i]));
+                      }
+
+                      if (val < minVal){
+                        minVal = val;
+                        bestFriend = v;
+                      }
+                    })
+
+                    let msg = `<div style="position: relative;width: 200px;height: 200px;overflow: hidden;border-radius: 50%; display: block; hidden; margin: 0 auto;"><img src="${bestFriend.pic}" class=" responsive-img center-align" style=width: 100%; height: auto;"></div><br>
+                    <p class='center-align'> You are matched with <strong>${bestFriend.first} ${bestFriend.last}</strong>! </p>`
+                    $("#modalbody").html(msg);
+                    $("#myModal").modal("open");
+                    //console.log(minVal, bestFriend);
+                  }
+                  else{
+                    let msg = `<p class='center-align'> You didn't match with anybody :( </p>`
+                    $("#modalheading").html("We're Sorry!")
+                    $("#modalbody").html(msg);
+                    $("#myModal").modal("open");
+                  }
+              })
+            }
+            else{
+                    let msg = `<p class='center-align'> You didn't fill out everything! </p>`
+                    $("#modalheading").html("Alert!")
+                    $("#modalbody").html(msg);
+                    $("#myModal").modal("open");
+            }
+        })
+    })
+
+
+
+  </script>
+</body>
+</html>
